@@ -16,8 +16,6 @@ const Studs = ({
     '--stud-height': `${height}px`,
   };
 
-  console.log({ style });
-
   return (
     <div className={`studs studs-${position}`} style={style}>
       {Array.from({ length: count }).map((_, index) => (

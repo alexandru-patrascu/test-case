@@ -1,0 +1,10 @@
+.corner-cut {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background-color: white;
+  transform-origin: bottom left;
+}

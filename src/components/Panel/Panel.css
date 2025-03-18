@@ -23,6 +23,10 @@
   position: relative;
 }
 
+.panel .studs-top {
+  top: 0;
+}
+
 .panel-text {
   padding: 10px;
   font-size: 0.9em;

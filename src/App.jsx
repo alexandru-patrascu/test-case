@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1 className="mb-18 font-bold">Interview</h1>
+      <h1 className="mb-18 font-bold">Test Case</h1>
       <div className="grid align-center justify-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <Block
           color="green"

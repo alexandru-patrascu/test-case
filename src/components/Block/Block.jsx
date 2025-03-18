@@ -1,13 +1,13 @@
 import React from 'react';
 import './Block.css';
-import { Studs } from '..';
+import { CornerCut, Studs } from '..';
 
 const Block = ({
   color,
   studGap,
   studPosition,
   studCount,
-  studWidth=20,
+  studWidth = 20,
   studHeight,
   studColor,
   children,
@@ -20,8 +20,6 @@ const Block = ({
     '--block-width': `${width}px`,
     '--block-height': `${height}px`,
   };
-
-  console.log({ studWidth, studHeight, studPosition });
 
   return (
     <div className={`block ${className || ''}`} style={style}>
