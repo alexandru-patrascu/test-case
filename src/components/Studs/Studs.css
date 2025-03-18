@@ -1,0 +1,52 @@
+.studs {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  gap: var(--stud-gap);
+}
+
+.studs-top {
+  top: calc(-1 * var(--stud-height));
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.studs-top .stud {
+  border-radius: 3px 3px 0 0;
+}
+
+.studs-right {
+  top: 50%;
+  flex-direction: column;
+  transform: translateY(-50%);
+  right: calc(-1 * var(--stud-height));
+}
+
+.studs-right .stud {
+  width: var(--stud-height);
+  height: var(--stud-width);
+  border-radius: 0 3px 3px 0;
+}
+
+.studs-bottom {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(-1 * var(--stud-height));
+}
+
+.studs-bottom .stud {
+  border-radius: 0 0 3px 3px;
+}
+
+.studs-left {
+  top: 50%;
+  flex-direction: column;
+  transform: translateY(-50%);
+  left: calc(-1 * var(--stud-height));
+}
+
+.studs-left .stud {
+  width: var(--stud-height);
+  height: var(--stud-width);
+  border-radius: 3px 0 0 3px;
+}

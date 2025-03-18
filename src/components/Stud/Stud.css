@@ -1,0 +1,5 @@
+.stud {
+  width: var(--stud-width);
+  height: var(--stud-height);
+  background-color: var(--stud-color);
+}
