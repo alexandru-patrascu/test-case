@@ -1,0 +1,18 @@
+.block {
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: var(--block-width);
+  height: var(--block-height);
+  background-color: var(--block-color);
+}
+
+.block-text {
+  text-align: left;
+  padding: 100px 0 0 40px;
+  font-size: 1rem;
+}

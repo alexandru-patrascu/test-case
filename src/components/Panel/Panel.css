@@ -1,0 +1,30 @@
+.panel {
+  position: relative;
+  border-radius: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--panel-color);
+  padding: 30px 20px 20px;
+}
+
+.panel .studs-row {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  padding: 5px 5px 0 5px;
+  background-color: white;
+}
+
+.panel .studs {
+  position: relative;
+}
+
+.panel-text {
+  padding: 10px;
+  font-size: 0.9em;
+  width: 100%;
+}
